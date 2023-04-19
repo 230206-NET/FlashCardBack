@@ -24,7 +24,7 @@ jobs:
 
       - name: Build with dotnet
         run: |
-          cd /FlashCardAPI
+          cd ./FlashCardAPI/
           dotnet build --configuration Release
 
       - name: dotnet publish
